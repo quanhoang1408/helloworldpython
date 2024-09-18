@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloworld-python-container
-        image: nginxdemos/hello:0.4-plain-text
+        image: quanhoangvti/my-non-root-app:latest
         ports:
         - containerPort: 5555
